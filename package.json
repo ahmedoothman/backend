@@ -1,0 +1,16 @@
+{
+  "name": "vibe-coder-backend",
+  "version": "1.0.0",
+  "description": "Backend for Vibe Coder prompt improver",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1"
+  }
+}
